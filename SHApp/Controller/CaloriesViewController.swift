@@ -17,20 +17,19 @@ class CaloriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Hello")
-        APIService.getCalories(for: "2 large apple") { (calories) in
-            print(calories)
-        }
+        
+        Utilities.styleTextField(foodTextField)
+        Utilities.styleFilledButton(searchButton)
         
     }
     
     @IBAction func searchTapped(_ sender: Any) {
-        let input = foodTextField.text
+        guard let input = foodTextField.text else { return }
+        
+        APIService.getCalories(for: input) { (calories) in
+            self.caloriesTextView.text = "\(calories) calories"
+        }
     }
 }
-
-//APIService.getCalories(for: "1 large apple") { (calorie) in
-//    print(calorie)
-//}
 
 

@@ -17,6 +17,7 @@
 		FA940D3C25497BCA008BABFD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D3B25497BCA008BABFD /* Food.swift */; };
 		FA940D432549A367008BABFD /* CaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D422549A367008BABFD /* CaloriesViewController.swift */; };
 		FA940D5E254AFA63008BABFD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D5D254AFA63008BABFD /* APIService.swift */; };
+		FA940D62254C1A97008BABFD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D61254C1A97008BABFD /* Service.swift */; };
 		FADFF6E6253A225F0039AD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFF6E5253A225F0039AD2A /* AppDelegate.swift */; };
 		FADFF6E8253A225F0039AD2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFF6E7253A225F0039AD2A /* SceneDelegate.swift */; };
 		FADFF6EA253A225F0039AD2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFF6E9253A225F0039AD2A /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		FA940D3B25497BCA008BABFD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		FA940D422549A367008BABFD /* CaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesViewController.swift; sourceTree = "<group>"; };
 		FA940D5D254AFA63008BABFD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FA940D61254C1A97008BABFD /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		FADFF6E2253A225F0039AD2A /* SHApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADFF6E5253A225F0039AD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADFF6E7253A225F0039AD2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		FA940CFE25457CE6008BABFD /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FA940D61254C1A97008BABFD /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				FADFF6E6253A225F0039AD2A /* AppDelegate.swift in Sources */,
 				FADFF707253ADD6C0039AD2A /* Utilities.swift in Sources */,
 				FADFF6FB253A35EA0039AD2A /* SignUpViewController.swift in Sources */,
+				FA940D62254C1A97008BABFD /* Service.swift in Sources */,
 				FADFF6FE253A36000039AD2A /* LoginViewController.swift in Sources */,
 				FA940CF02541AF67008BABFD /* NotesTableViewController.swift in Sources */,
 				FADFF6E8253A225F0039AD2A /* SceneDelegate.swift in Sources */,

@@ -23,12 +23,5 @@ class Exit: UIViewController {
         
         
     }
-    
-//    public func loginWithAnotehrUser() {
-//        try! Auth.auth().signOut()
-//        let loginVc = storyboard?.instantiateViewController(identifier:"loginId") as? LoginViewController
-//        view.window?.rootViewController = loginVc
-//        view.window?.makeKeyAndVisible()
-//    }
 
 }

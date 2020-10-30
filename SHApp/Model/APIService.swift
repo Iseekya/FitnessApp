@@ -12,7 +12,7 @@ class APIService {
     
    static func getCalories(for ingridient: String, completionHandler: @escaping (Int) -> Void) {
 
-        let url = "\(APIConstants.API_URL)&ingr=\(ingridient)"
+    let url = "\(APIConstants.API_URL)&ingr=\(ingridient.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!)"
         
         AF.request(url).validate().responseDecodable(of: Food.self) { (response) in
             
