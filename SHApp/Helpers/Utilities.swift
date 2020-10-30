@@ -28,6 +28,9 @@ class Utilities {
         // Add the line to the text field
         textfield.layer.addSublayer(bottomLine)
         
+        
+        textfield.attributedPlaceholder = NSAttributedString(string: textfield.placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        
     }
     
     static func styleFilledButton(_ button:UIButton) {

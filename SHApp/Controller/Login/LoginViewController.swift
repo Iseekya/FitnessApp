@@ -54,7 +54,10 @@ class LoginViewController: UIViewController {
         return nil
     }
     
+    
+    
     @IBAction func loginTapped(_ sender: Any) {
+        
         
         // Validate Text Fields
         
@@ -64,6 +67,7 @@ class LoginViewController: UIViewController {
             // There is something wrong with the fields, show error message
             showError(error!)
         }
+        
         
         // Create cleaned versions of the text field
         let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -76,9 +80,8 @@ class LoginViewController: UIViewController {
                 self.errorTextField.text = error!.localizedDescription
                 self.errorTextField.alpha = 1
             } else {
-                self.transitionToHome()
+                self.dismiss(animated: true, completion: nil)
             }
-            
         }
         
     }
@@ -88,17 +91,5 @@ class LoginViewController: UIViewController {
         errorTextField.text = message
         errorTextField.alpha = 1
     }
-    
-    func transitionToHome() {
-        
-        let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-        
-        self.view.window?.rootViewController = homeViewController
-        self.view.window?.makeKeyAndVisible()
-        
-    }
-    
-    
-    
 
 }

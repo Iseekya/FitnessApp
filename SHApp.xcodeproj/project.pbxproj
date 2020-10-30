@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DED80E9E1B8F3EBF6D3BAD94 /* Pods_SHApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFE662F49862DB9F6E07432 /* Pods_SHApp.framework */; };
+		FA940CF02541AF67008BABFD /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940CEF2541AF67008BABFD /* NotesTableViewController.swift */; };
+		FA940CF32542AB3F008BABFD /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940CF22542AB3F008BABFD /* EntryViewController.swift */; };
+		FA940CF92542F506008BABFD /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940CF82542F506008BABFD /* LogoutViewController.swift */; };
+		FA940D07254587A2008BABFD /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D06254587A2008BABFD /* NoteViewController.swift */; };
+		FA940D15254823EF008BABFD /* Exit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D14254823EF008BABFD /* Exit.swift */; };
+		FA940D39254960B3008BABFD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D38254960B3008BABFD /* APIConstants.swift */; };
+		FA940D3C25497BCA008BABFD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D3B25497BCA008BABFD /* Food.swift */; };
+		FA940D432549A367008BABFD /* CaloriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D422549A367008BABFD /* CaloriesViewController.swift */; };
+		FA940D5E254AFA63008BABFD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA940D5D254AFA63008BABFD /* APIService.swift */; };
 		FADFF6E6253A225F0039AD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFF6E5253A225F0039AD2A /* AppDelegate.swift */; };
 		FADFF6E8253A225F0039AD2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFF6E7253A225F0039AD2A /* SceneDelegate.swift */; };
 		FADFF6EA253A225F0039AD2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFF6E9253A225F0039AD2A /* ViewController.swift */; };
@@ -26,6 +35,15 @@
 		1EFE662F49862DB9F6E07432 /* Pods_SHApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DF7E34026DEE42A80B6600 /* Pods-SHApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHApp.debug.xcconfig"; path = "Target Support Files/Pods-SHApp/Pods-SHApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C215CB2353B7D6162B088D86 /* Pods-SHApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHApp.release.xcconfig"; path = "Target Support Files/Pods-SHApp/Pods-SHApp.release.xcconfig"; sourceTree = "<group>"; };
+		FA940CEF2541AF67008BABFD /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		FA940CF22542AB3F008BABFD /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		FA940CF82542F506008BABFD /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		FA940D06254587A2008BABFD /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		FA940D14254823EF008BABFD /* Exit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exit.swift; sourceTree = "<group>"; };
+		FA940D38254960B3008BABFD /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		FA940D3B25497BCA008BABFD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		FA940D422549A367008BABFD /* CaloriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesViewController.swift; sourceTree = "<group>"; };
+		FA940D5D254AFA63008BABFD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		FADFF6E2253A225F0039AD2A /* SHApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADFF6E5253A225F0039AD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADFF6E7253A225F0039AD2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +89,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA940CFE25457CE6008BABFD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FA940D102546FC5A008BABFD /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				FA940CEF2541AF67008BABFD /* NotesTableViewController.swift */,
+				FA940CF22542AB3F008BABFD /* EntryViewController.swift */,
+				FA940D06254587A2008BABFD /* NoteViewController.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		FA940D112546FC75008BABFD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FADFF6E9253A225F0039AD2A /* ViewController.swift */,
+				FADFF6FA253A35EA0039AD2A /* SignUpViewController.swift */,
+				FADFF6FD253A36000039AD2A /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA940D122546FC96008BABFD /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				FA940CF82542F506008BABFD /* LogoutViewController.swift */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
 		FADFF6D9253A225F0039AD2A = {
 			isa = PBXGroup;
 			children = (
@@ -92,11 +145,13 @@
 		FADFF6E4253A225F0039AD2A /* SHApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA940CFE25457CE6008BABFD /* Service */,
+				FADFF78B253EAD210039AD2A /* View */,
+				FADFF78A253EAD180039AD2A /* Model */,
 				FADFF705253ADD640039AD2A /* Helpers */,
 				FADFF703253A361D0039AD2A /* Controller */,
 				FADFF6E5253A225F0039AD2A /* AppDelegate.swift */,
 				FADFF6E7253A225F0039AD2A /* SceneDelegate.swift */,
-				FADFF6EB253A225F0039AD2A /* Main.storyboard */,
 				FADFF6EE253A22610039AD2A /* Assets.xcassets */,
 				FADFF6F0253A22610039AD2A /* LaunchScreen.storyboard */,
 				FADFF709253C6EA80039AD2A /* GoogleService-Info.plist */,
@@ -108,10 +163,11 @@
 		FADFF703253A361D0039AD2A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FADFF6E9253A225F0039AD2A /* ViewController.swift */,
-				FADFF6FA253A35EA0039AD2A /* SignUpViewController.swift */,
-				FADFF6FD253A36000039AD2A /* LoginViewController.swift */,
+				FA940D122546FC96008BABFD /* Logout */,
+				FA940D112546FC75008BABFD /* Login */,
+				FA940D102546FC5A008BABFD /* Notes */,
 				FADFF700253A36110039AD2A /* HomeViewController.swift */,
+				FA940D422549A367008BABFD /* CaloriesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,6 +179,25 @@
 				FADFF730253D9FF00039AD2A /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FADFF78A253EAD180039AD2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA940D14254823EF008BABFD /* Exit.swift */,
+				FA940D38254960B3008BABFD /* APIConstants.swift */,
+				FA940D3B25497BCA008BABFD /* Food.swift */,
+				FA940D5D254AFA63008BABFD /* APIService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADFF78B253EAD210039AD2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADFF6EB253A225F0039AD2A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,13 +316,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADFF6EA253A225F0039AD2A /* ViewController.swift in Sources */,
+				FA940CF32542AB3F008BABFD /* EntryViewController.swift in Sources */,
 				FADFF6E6253A225F0039AD2A /* AppDelegate.swift in Sources */,
 				FADFF707253ADD6C0039AD2A /* Utilities.swift in Sources */,
 				FADFF6FB253A35EA0039AD2A /* SignUpViewController.swift in Sources */,
 				FADFF6FE253A36000039AD2A /* LoginViewController.swift in Sources */,
+				FA940CF02541AF67008BABFD /* NotesTableViewController.swift in Sources */,
 				FADFF6E8253A225F0039AD2A /* SceneDelegate.swift in Sources */,
 				FADFF701253A36110039AD2A /* HomeViewController.swift in Sources */,
+				FA940CF92542F506008BABFD /* LogoutViewController.swift in Sources */,
+				FA940D39254960B3008BABFD /* APIConstants.swift in Sources */,
+				FA940D432549A367008BABFD /* CaloriesViewController.swift in Sources */,
+				FA940D07254587A2008BABFD /* NoteViewController.swift in Sources */,
+				FA940D3C25497BCA008BABFD /* Food.swift in Sources */,
 				FADFF731253D9FF00039AD2A /* Constants.swift in Sources */,
+				FA940D5E254AFA63008BABFD /* APIService.swift in Sources */,
+				FA940D15254823EF008BABFD /* Exit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

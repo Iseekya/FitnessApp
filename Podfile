@@ -13,4 +13,8 @@ target 'SHApp' do
     pod 'Firebase/Firestore'
     pod 'FirebaseFirestoreSwift'
 
+    pod 'youtube-ios-player-helper'
+    
+    pod 'Alamofire'
+
 end
