@@ -25,7 +25,7 @@ class CaloriesViewController: UIViewController {
     }
     
     @IBAction func searchTapped(_ sender: Any) {
-        
+        let input = foodTextField.text
     }
 }
 
